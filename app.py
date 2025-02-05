@@ -4,7 +4,7 @@ import logging
 import streamlit as st
 
 from llm import complete
-
+'''
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -15,7 +15,7 @@ async def run_async(models, prompts):
     except Exception as e:
         logger.error(f"Error in run_async: {e}", exc_info=True)
         raise
-
+'''
 
 def display_responses(responses, column_count):
     columns = st.columns(column_count)
